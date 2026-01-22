@@ -1,0 +1,44 @@
+.section {
+    padding: 6rem 0;
+    background-color: var(--bg-secondary);
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.content {
+    flex: 1;
+}
+
+.imageWrapper {
+    flex: 1;
+    height: 400px;
+    background-color: #ddd;
+    border-radius: var(--radius-lg);
+    position: relative;
+    overflow: hidden;
+}
+
+.imageCaption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: white;
+    padding: 10px 20px;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    box-shadow: var(--shadow-md);
+}
+
+@media (max-width: 768px) {
+    .inner {
+        flex-direction: column-reverse;
+    }
+
+    .imageWrapper {
+        width: 100%;
+    }
+}

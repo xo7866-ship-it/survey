@@ -1,0 +1,132 @@
+.container {
+    padding: 3rem 20px;
+}
+
+.pageTitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    border: 1px solid #eee;
+}
+
+.profileHeader {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--bg-main);
+    box-shadow: var(--shadow-sm);
+}
+
+.userName {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.userEmail {
+    color: var(--text-muted);
+}
+
+.sectionTitle {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.orderList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.orderCard {
+    background: white;
+    padding: 1.5rem;
+    border-radius: var(--radius-md);
+    border: 1px solid #eee;
+}
+
+.orderHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dashed #eee;
+}
+
+.orderDate {
+    font-weight: 500;
+    color: var(--text-main);
+}
+
+.status {
+    font-size: 0.85rem;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.statusDone {
+    background-color: #f0f0f0;
+    color: #666;
+}
+
+.statusActive {
+    background-color: #e3f2fd;
+    color: #1976d2;
+}
+
+.orderItems {
+    margin-bottom: 1rem;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.itemQty {
+    color: var(--text-muted);
+}
+
+.orderFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.orderId {
+    color: var(--text-muted);
+}
+
+.orderTotal {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--color-primary);
+}

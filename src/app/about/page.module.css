@@ -1,0 +1,54 @@
+.container {
+    padding: 4rem 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+}
+
+.content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-main);
+}
+
+.textBlock {
+    margin-bottom: 1.5rem;
+}
+
+.dynamicContent {
+    margin-bottom: 2rem;
+    white-space: pre-wrap;
+    /* Respects newlines from textarea */
+}
+
+.dynamicContent p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+.valuesSection {
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: var(--bg-secondary);
+    border-radius: var(--radius-lg);
+}
+
+.valuesTitle {
+    font-family: var(--font-heading);
+    margin-bottom: 1rem;
+}
+
+.valuesList {
+    padding-left: 20px;
+    list-style: circle;
+}
+
+.valuesList li {
+    margin-bottom: 0.5rem;
+}

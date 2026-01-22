@@ -1,0 +1,80 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #1a1c23;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.header {
+    padding: 1.5rem;
+    border-bottom: 1px solid #2d3748;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-secondary);
+}
+
+.nav {
+    flex: 1;
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem 1.5rem;
+    color: #a0aec0;
+    text-decoration: none;
+    transition: all 0.2s;
+    font-size: 0.95rem;
+}
+
+.link:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.active {
+    color: var(--color-primary);
+    background-color: rgba(201, 165, 92, 0.1);
+    border-right: 3px solid var(--color-primary);
+}
+
+.footer {
+    padding: 1.5rem;
+    border-top: 1px solid #2d3748;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footerLink {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem;
+    color: #718096;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+.footerLink:hover {
+    color: white;
+}

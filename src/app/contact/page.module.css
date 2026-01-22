@@ -1,0 +1,42 @@
+.container {
+    padding: 4rem 20px;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 4rem;
+}
+
+.sectionTitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.contactItem {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    align-items: flex-start;
+}
+
+.iconWrapper {
+    color: var(--color-secondary);
+}
+
+.itemTitle {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.itemText {
+    color: var(--text-muted);
+}

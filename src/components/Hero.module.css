@@ -1,0 +1,85 @@
+.hero {
+    padding: 6rem 0;
+    background: linear-gradient(to right, #f9f9f7 0%, #f0f0f0 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.content {
+    flex: 1;
+    position: relative;
+    z-index: 10;
+}
+
+.label {
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+
+.description {
+    font-size: 1.125rem;
+    color: var(--text-muted);
+    margin-bottom: 2.5rem;
+    max-width: 500px;
+}
+
+.imageWrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/* Abstract decorations */
+.decoration {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: var(--color-secondary);
+    opacity: 0.1;
+    border-radius: 50%;
+    filter: blur(80px);
+    z-index: 0;
+}
+
+.decorationTop {
+    top: -50px;
+    right: -50px;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 4rem 0;
+        text-align: center;
+    }
+
+    .inner {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .description {
+        margin: 0 auto 2rem;
+    }
+}
